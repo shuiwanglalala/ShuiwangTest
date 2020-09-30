@@ -25,6 +25,8 @@
 
         <activity android:name=".WebviewActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".DialogActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
 
     </application>
 
