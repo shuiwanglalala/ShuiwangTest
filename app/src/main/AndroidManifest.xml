@@ -27,6 +27,8 @@
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".DialogActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".RadioButtonActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
 
     </application>
 

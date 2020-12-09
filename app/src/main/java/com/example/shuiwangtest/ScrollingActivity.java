@@ -32,6 +32,12 @@ public class ScrollingActivity extends AppCompatActivity {
                 startActivity(new Intent(ScrollingActivity.this, DialogActivity.class));
             }
         });
+        findViewById(R.id.btn_radiobutton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, RadioButtonActivity.class));
+            }
+        });
     }
 
 }
