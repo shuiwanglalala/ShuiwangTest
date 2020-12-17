@@ -38,6 +38,12 @@ public class ScrollingActivity extends AppCompatActivity {
                 startActivity(new Intent(ScrollingActivity.this, RadioButtonActivity.class));
             }
         });
+        findViewById(R.id.btn_tablayout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, TablayoutActivity.class));
+            }
+        });
     }
 
 }
