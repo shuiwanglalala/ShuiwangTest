@@ -53,6 +53,15 @@
                 android:gravity="center"
                 android:layout_margin="10dp"/>
 
+            <Button
+                android:id="@+id/btn_gesture"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="btn_gesture"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_margin="10dp"/>
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

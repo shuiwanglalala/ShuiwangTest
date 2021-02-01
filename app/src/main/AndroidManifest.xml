@@ -31,6 +31,8 @@
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".TablayoutActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".GestureActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
 
     </application>
 
