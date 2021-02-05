@@ -38,6 +38,8 @@
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".GlideActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".OkhttpActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

@@ -2,16 +2,12 @@ package com.example.shuiwangtest;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
+import com.orhanobut.logger.AndroidLogAdapter;
+import com.orhanobut.logger.Logger;
 
 public class ScrollingActivity extends AppCompatActivity {
 
@@ -19,6 +15,7 @@ public class ScrollingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrolling);
+        init();
 
         findViewById(R.id.btn_webview).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +53,16 @@ public class ScrollingActivity extends AppCompatActivity {
                 startActivity(new Intent(ScrollingActivity.this, GlideActivity.class));
             }
         });
+        findViewById(R.id.btn_okhttp).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, OkhttpActivity.class));
+            }
+        });
+    }
+
+    private void init() {
+        Logger.addLogAdapter(new AndroidLogAdapter());
     }
 
 }
