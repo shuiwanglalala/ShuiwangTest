@@ -59,6 +59,12 @@ public class ScrollingActivity extends AppCompatActivity {
                 startActivity(new Intent(ScrollingActivity.this, OkhttpActivity.class));
             }
         });
+        findViewById(R.id.btn_gson).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, GsonActivity.class));
+            }
+        });
     }
 
     private void init() {

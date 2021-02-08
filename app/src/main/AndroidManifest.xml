@@ -40,6 +40,8 @@
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".OkhttpActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".GsonActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
