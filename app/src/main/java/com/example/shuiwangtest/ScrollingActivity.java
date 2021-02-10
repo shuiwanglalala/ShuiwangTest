@@ -65,6 +65,12 @@ public class ScrollingActivity extends AppCompatActivity {
                 startActivity(new Intent(ScrollingActivity.this, GsonActivity.class));
             }
         });
+        findViewById(R.id.btn_retrofit).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ScrollingActivity.this, RetrofitActivity.class));
+            }
+        });
     }
 
     private void init() {
